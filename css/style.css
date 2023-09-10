@@ -1,0 +1,55 @@
+/*==================header style ========================*/
+
+header {
+    background-color: rgb(177, 247, 36);
+    border-radius: 25px;
+    border: solid black 3px;
+    background-image: url(../img/space.jpg);
+}
+
+.quote {
+    color: white;
+    padding-right: 30px;
+}
+
+.main-items-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+
+    color: white;
+    padding-left: 30px;
+}
+
+/*==================header style ========================*/
+
+
+
+
+
+
+
+/*==================index style ========================*/
+
+body {
+    background-color: aqua;
+
+
+}
+
+/*==================index style ========================*/
+
+
+
+
+
+
+
+
+
+/*==================footer style ========================*/
+
+/*==================footer style ========================*/
