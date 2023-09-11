@@ -1,16 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 /*==================header style ========================*/
 
-header {
-    background-color: rgb(177, 247, 36);
-    border-radius: 25px;
-    border: solid black 3px;
-    background-image: url(../img/space.jpg);
+.header2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.quote {
-    color: white;
-    padding-right: 30px;
+header {
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: solid black 3px;
+    width: 500px;
+    padding-top: 10px;
+    max-width: 1000px;
 }
+
+
+
 
 .main-items-header {
     display: flex;
@@ -20,7 +33,7 @@ header {
 .logo {
     display: flex;
 
-    color: white;
+    color: rgb(71, 105, 242);
     padding-left: 30px;
 }
 
@@ -35,9 +48,39 @@ header {
 /*==================index style ========================*/
 
 body {
-    background-color: aqua;
+    background-image: url(../img/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
+}
+
+.games_nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: -25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border: solid black 5px;
+}
+
+.grid-item {
+    background-color: #c3cdd3;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.border_grid {
+    background: white;
+    border-radius: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 /*==================index style ========================*/
