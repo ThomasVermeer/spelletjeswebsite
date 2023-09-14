@@ -1,0 +1,89 @@
+/* Voeg hier de stijlen voor de roulette-tafel toe */
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.roulette-table {
+    background-color: #0c3e5e;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.betting-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bet {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 5px;
+}
+
+.red {
+    background-color: #ff4136;
+}
+
+.black {
+    background-color: #111;
+}
+
+/* Voeg de groene stijl toe voor de 0 */
+.bet.green {
+    background-color: #4CAF50;
+}
+
+.betting-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#odd {
+    background-color: #0c3e5e;
+    color: #fff;
+}
+
+button#even {
+    background-color: #ff4136;
+    color: #fff;
+}
+
+button#black {
+    background-color: #111;
+    color: #fff;
+}
+
+button#red {
+    background-color: #ff4136;
+    color: #fff;
+}
