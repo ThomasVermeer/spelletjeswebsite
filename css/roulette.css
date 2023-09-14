@@ -87,3 +87,22 @@ button#red {
     background-color: #ffffff;
     color: #000000;
 }
+
+
+
+.selectable.hovered {
+    border-color: #ffd900;
+
+    color: #ffd900;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+.selectable.selected {
+    border-color: #ffd900;
+
+    color: #ffd900;
+
+}

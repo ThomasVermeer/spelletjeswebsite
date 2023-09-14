@@ -18,20 +18,21 @@ require_once('header.php');
         <div class="betting-area">
             <?php
             for ($i = 0; $i <= 36; $i++) {
-                $color = ($i % 2 == 0) ? 'black' : 'red'; // Wissel tussen rood en zwart
-                // Voeg de groene klasse toe aan de 0
-                $betClass = ($i == 0) ? 'bet green' : 'bet ' . $color;
-                echo '<div class="' . $betClass . '">' . $i . '</div>';
+                $color = ($i % 2 == 0) ? 'red' : 'black'; // Wissel tussen rood en zwart
+                // Voeg de selecteerbare klasse toe aan elk getal
+                $betClass = ($i == 0) ? 'bet green' : 'bet selectable ' . $color;
+                echo '<div class="' . $betClass . '" data-value="' . $i . '">' . $i . '</div>';
             }
             ?>
         </div>
         <div class="betting-buttons">
-            <button id="odd">Odd</button>
-            <button id="even">Even</button>
-            <button id="black">Black</button>
-            <button id="red">Red</button>
+            <button class="selectable" data-type="odd">Odd</button>
+            <button class="selectable" data-type="even">Even</button>
+            <button class="selectable" data-type="black">Black</button>
+            <button class="selectable" data-type="red">Red</button>
         </div>
     </div>
+    <script src="roulette.js"></script>
 </body>
 
 </html>
