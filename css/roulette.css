@@ -69,21 +69,21 @@ button {
 }
 
 button#odd {
-    background-color: #0c3e5e;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 button#even {
-    background-color: #ff4136;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 button#black {
-    background-color: #111;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 button#red {
-    background-color: #ff4136;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
