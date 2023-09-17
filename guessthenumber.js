@@ -5,13 +5,13 @@ document.querySelector('#click')
     .addEventListener('click', () => {
         attempts++;
         let invoernummer = document.getElementById('inputgetal').value;
-        alert('je koos getal ' + invoernummer);
+
 
         if (numbertoget > invoernummer) {
-            alert('hoger');
+            alert('hoger dan ' + invoernummer);
         }
         if (numbertoget < invoernummer) {
-            alert('lager');
+            alert('lager dan ' + invoernummer);
         }
         if (numbertoget == invoernummer) {
             alert('gefeliciteerd je hebt het nummer ' + numbertoget + ' weten te raden binnen ' + attempts + ' pogingen');

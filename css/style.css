@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-
 /*==================header style ========================*/
-
 .header2 {
     padding-top: 10px;
     display: flex;
@@ -13,7 +11,6 @@
 }
 
 header {
-
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
     border: solid black 3px;
@@ -22,9 +19,6 @@ header {
     max-width: 1000px;
 }
 
-
-
-
 .main-items-header {
     display: flex;
     justify-content: space-around;
@@ -32,27 +26,17 @@ header {
 
 .logo {
     display: flex;
-
     color: rgb(71, 105, 242);
     padding-left: 30px;
 }
 
 /*==================header style ========================*/
 
-
-
-
-
-
-
 /*==================index style ========================*/
-
 body {
     background-image: url(../img/galaxy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .games_nav {
@@ -73,6 +57,18 @@ body {
     padding: 20px;
     text-align: center;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.grid-item img {
+    max-width: 100%;
+    /* Laat de afbeelding de maximale breedte van het grid-item niet overschrijden */
+    max-height: 100%;
+    /* Behoud de juiste hoogte-breedteverhouding */
 }
 
 .border_grid {
@@ -85,14 +81,6 @@ body {
 
 /*==================index style ========================*/
 
-
-
-
-
-
-
-
-
 /*==================footer style ========================*/
-
+/* Voeg hier de stijlen voor de footer toe */
 /*==================footer style ========================*/

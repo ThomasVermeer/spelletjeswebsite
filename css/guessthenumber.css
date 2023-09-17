@@ -1,0 +1,76 @@
+/* Voeg hier stijlen toe voor het inputveld en de knop */
+
+/* Stijl voor het hele containergebied */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    /* Vervang "casino-background.jpg" door de daadwerkelijke afbeelding */
+
+    color: #fff;
+}
+
+/* Stijl voor de titel */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Voegt een schaduw toe aan de tekst voor betere zichtbaarheid */
+}
+
+/* Stijl voor het inputveld */
+#inputgetal {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Halfdoorzichtige achtergrond voor betere zichtbaarheid */
+    color: #fff;
+}
+
+/* Stijl voor de knop */
+#click {
+    padding: 10px 20px;
+    background-color: #f44336;
+    /* Rode achtergrondkleur, aanpassen aan je eigen kleurenschema */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Stijl voor de knop-hover (optioneel) */
+#click:hover {
+    background-color: #d32f2f;
+    /* Donkerdere rode achtergrondkleur bij hover */
+}
+
+.border_guessthenumber {
+    background-color: #1c8d3a;
+    max-width: 500px;
+    border: solid rgb(1, 72, 111) 10px;
+    border-radius: 20px;
+
+
+
+
+
+
+}
+
+.hond {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: solid rgb(255, 255, 255) 10px;
+}
