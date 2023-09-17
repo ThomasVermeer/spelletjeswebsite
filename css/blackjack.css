@@ -1,0 +1,30 @@
+/* Stijl de kaarten */
+.card {
+    color: white;
+    width: 100px;
+    height: 150px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 150px;
+    background-image: url(../img/cards.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Stijl de knoppen */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(../img/blackjacktable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
